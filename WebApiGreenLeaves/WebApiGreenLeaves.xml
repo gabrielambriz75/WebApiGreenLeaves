@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApiGreenLeaves</name>
+    </assembly>
+    <members>
+        <member name="M:WebApiGreenLeaves.Controllers.DatosUsuarioController.ObtenerLocacion(System.String)">
+            <summary>
+            Metodo para obtener la locacion mediante el envio del nombre de la ciudad.
+            </summary>
+            <param name="NameCiudad"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
