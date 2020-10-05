@@ -59,6 +59,28 @@ namespace WebApiGreenLeaves.Controllers
             return Ok(listaLocacion);
         }
 
+        /// <summary>
+        /// Enviar datos del usuario por correo
+        /// </summary>
+        /// <param name="datosUsuario"></param>
+        /// <returns></returns>
+       [HttpPost]
+        public ActionResult EnviarDatosUsuario([FromBody] DatosUsuarioModel datosUsuario)
+        {
+            try
+            {
 
+                return Ok();
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+
+
+
+        
+        }
     }
 }

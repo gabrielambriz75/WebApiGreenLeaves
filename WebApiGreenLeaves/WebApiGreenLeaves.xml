@@ -11,5 +11,12 @@
             <param name="NameCiudad"></param>
             <returns></returns>
         </member>
+        <member name="M:WebApiGreenLeaves.Controllers.DatosUsuarioController.EnviarDatosUsuario(WebApiGreenLeaves.ViewModel.DatosUsuarioModel)">
+            <summary>
+            Enviar datos del usuario por correo
+            </summary>
+            <param name="datosUsuario"></param>
+            <returns></returns>
+        </member>
     </members>
 </doc>
